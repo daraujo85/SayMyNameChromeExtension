@@ -1,0 +1,23 @@
+{
+  "extensionName": {
+    "message": "Dis Mon Nom"
+  },
+  "popupTitle": {
+    "message": "Dis Mon Nom"
+  },
+  "yourName": {
+    "message": "Ton Nom"
+  },
+  "intervalPlaceholder": {
+    "message": "Intervalle (en secondes)"
+  },
+  "startMonitoring": {
+    "message": "Démarrer la surveillance"
+  },
+  "stopMonitoring": {
+    "message": "Arrêter la surveillance"
+  },
+  "notificationMessage": {
+    "message": "Quelqu'un a mentionné ton nom !"
+  }
+}     

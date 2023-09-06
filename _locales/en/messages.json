@@ -1,0 +1,23 @@
+{
+  "extensionName": {
+    "message": "Say My Name"
+  },
+  "popupTitle": {
+    "message": "Say My Name"
+  },
+  "yourName": {
+    "message": "Your Name"
+  },
+  "intervalPlaceholder": {
+    "message": "Interval (in seconds)"
+  },
+  "startMonitoring": {
+    "message": "Start Monitoring"
+  },
+  "stopMonitoring": {
+    "message": "Stop Monitoring"
+  },
+  "notificationMessage": {
+    "message": "Someone mentioned your name!"
+  }
+}

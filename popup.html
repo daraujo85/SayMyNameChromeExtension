@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title data-i18n="extensionName"></title>
+    <link rel="stylesheet" type="text/css" href="popup.css" />
+    <script src="popup.js"></script>
+    <meta http-equiv="Content-Language" content="en" />
+  </head>
+  <body>
+    <div class="popup-container">
+      <div class="popup-content">
+        <h1 data-i18n="popupTitle"></h1>
+        <img alt="Walter White" src="/assets/images/icon128.png" width="68px" />
+      </div>
+      <input type="text" id="name" required ="" data-i18n-placeholder="yourName"/>
+      <br />
+      <input
+        type="number"
+        id="interval"
+        required
+        placeholder=""
+        data-i18n-placeholder="intervalPlaceholder"
+        value="1"
+        min="1"
+        max="180"
+      />
+      <br />
+      <button id="startButton" class="start" data-i18n="startMonitoring"></button>
+    </div>
+    <p style="text-align: center;">Feito por <a href="http://www.devsync.com.br" rel="author">DevSync</a></p>
+  </body>
+</html>

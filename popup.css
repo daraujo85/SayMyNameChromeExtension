@@ -1,0 +1,52 @@
+/* popup.css */
+body {
+  width: 200px;
+  padding: 10px;
+}
+
+.popup-container {
+  padding: 10px;
+  text-align: center;
+}
+.popup-content {
+  display: inline-flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: -webkit-fill-available;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+}
+
+button {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  width: -webkit-fill-available;
+  height: 3em;
+}
+.start {
+  background-color: #0073e6;
+}
+.stop {
+  background-color: rgb(245, 83, 83);
+}
+/* Estilo de hover para o botão de iniciar */
+.start:hover {
+  background-color: #005bbf;
+}
+/* Estilo de hover para o botão de parar */
+.stop:hover {
+  background-color: rgb(238, 52, 52);
+}
